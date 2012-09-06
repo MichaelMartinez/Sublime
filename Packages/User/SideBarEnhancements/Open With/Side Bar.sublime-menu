@@ -1,0 +1,120 @@
+[
+	{"id": "side-bar-files-open-with",
+		"children":
+		[
+
+			// Espresso
+			{
+				"caption": "Espresso",
+				"id": "side-bar-files-open-with-espresso",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Espresso.app",
+									"extensions":"css" //open all even folders
+								}
+			},
+			{"caption":"-"},
+			// Browsers
+			{
+				"caption": "Chrome",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Chrome.app",
+									"extensions":"html|php"  //any file with these extensions
+								}
+			},
+			{
+				"caption": "Firefox",
+				"id": "side-bar-files-open-with-firefox",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Firefox.app",
+									"extensions":"html|php"  //any file with these extensions
+								}
+			},
+			{"caption":"-"},
+			// Photoshop
+			{
+				"caption": "Photoshop",
+				"id": "side-bar-files-open-with-photoshop",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Adobe Photoshop CS5.app",
+									"extensions":"psd|png|jpg|jpeg|gif"  //any file with these extensions
+								}
+			},
+			// Preview
+			{
+				"caption": "Preview",
+				"id": "side-bar-files-open-with-preview",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Preview.app",
+									"extensions":"psd|png|jpg|jpeg|gif"  //any file with these extensions
+								}
+			},
+			{"caption":"-"},
+			// WebStorm
+			{
+				"caption": "WebStorm",
+				"id": "side-bar-files-open-with-webstorm",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "WebStorm.app",
+									"extensions":"html|js"  //any file with these extensions
+								}
+			},
+			// Coda
+			{
+				"caption": "Coda",
+				"id": "side-bar-files-open-with-coda",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Coda.app",
+									"extensions":"html|js"  //any file with these extensions
+								}
+			},
+			{"caption":"-"},
+			// RubyMine
+			{
+				"caption": "RubyMine",
+				"id": "side-bar-files-open-with-rubymine",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "RubyMine.app",
+									"extensions":"rb|erb|yaml"  //any file with these extensions
+								}
+			},
+			{"caption":"-"},
+			// MS Word
+			{
+				"caption": "Word",
+				"id": "side-bar-files-open-with-msword",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Microsoft Word.app",
+									"extensions":"doc|docx|txt"  //any file with these extensions
+								}
+			}
+		]
+	}
+]

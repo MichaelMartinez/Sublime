@@ -1,0 +1,20 @@
+{
+	"auto_upgrade_last_run": 1346882463,
+	"installed_packages":
+	[
+		"Abacus",
+		"ASCII Decorator",
+		"BracketHighlighter",
+		"Gist",
+		"Goto Documentation",
+		"IndentGuides",
+		"jQuery",
+		"jQuery Snippets pack",
+		"JsFormat",
+		"Nettuts+ Fetch",
+		"Package Control",
+		"SideBarEnhancements",
+		"Sublime-KnockoutJS-Snippets",
+		"Theme - Soda"
+	]
+}
