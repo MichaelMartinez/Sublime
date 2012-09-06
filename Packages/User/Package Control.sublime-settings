@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1346882463,
+	"auto_upgrade_last_run": 1346906785,
 	"installed_packages":
 	[
 		"Abacus",
@@ -11,6 +11,7 @@
 		"jQuery",
 		"jQuery Snippets pack",
 		"JsFormat",
+		"Markdown Preview",
 		"Nettuts+ Fetch",
 		"Package Control",
 		"SideBarEnhancements",

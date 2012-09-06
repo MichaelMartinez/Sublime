@@ -1,2 +1,4 @@
-[{ "keys": ["ctrl+shift+h"], "command": "goto_documentation" }
+[
+	{ "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser"} },
+	{ "keys": ["ctrl+shift+h"], "command": "goto_documentation" }
 ]
