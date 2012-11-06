@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1347593423,
+	"auto_upgrade_last_run": 1352162930,
 	"installed_packages":
 	[
 		"Abacus",
@@ -14,9 +14,9 @@
 		"Markdown Preview",
 		"Nettuts+ Fetch",
 		"Package Control",
+		"Python Flake8 Lint",
+		"Python PEP8 Autoformat",
 		"SideBarEnhancements",
-		"Sublime-KnockoutJS-Snippets",
-		"SublimeCodeIntel",
 		"Theme - Soda"
 	]
 }

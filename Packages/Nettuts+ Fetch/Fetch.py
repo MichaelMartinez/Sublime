@@ -35,14 +35,19 @@ class FetchCommand(sublime_plugin.WindowCommand):
             s.set('files', self.filesPlaceholder)
         sublime.save_settings('Fetch.sublime-settings')
 
-    def run(self):
+    def run(self, *args, **kwargs):
+        _type = kwargs.get('type', None)
         self.s = sublime.load_settings('Fetch.sublime-settings')
         self.fileList = []
         self.packageList = []
 
-        options = ['Single file', 'Package file']
-
-        self.window.show_quick_panel(options, self.callback)
+        if _type == 'single':
+            self.list_files()
+        elif _type == 'package':
+            self.list_packages()
+        else:
+            options = ['Single file', 'Package file']
+            self.window.show_quick_panel(options, self.callback)
 
     def callback(self, index):
         if not self.window.views():
@@ -173,15 +178,15 @@ class FetchGetCommand(sublime_plugin.TextCommand):
 
         self.view.erase_status('fetch')
         if status and self.option == 'package':
-            sublime.status_message('The package from %s was successfully' +
-                                   ' downloaded and extracted' % (self.url))
+            sublime.status_message(('The package from %s was successfully' +
+                                   ' downloaded and extracted') % self.url)
 
         elif status and self.option == 'txt':
             for region in self.view.sel():
                 self.view.replace(edit, region, txt)
 
-            sublime.status_message('The file was successfully downloaded' +
-                                   ' from %s' % (self.url))
+            sublime.status_message(('The file was successfully downloaded' +
+                                   ' from %s') % self.url)
 
 
 class FetchDownload(threading.Thread):
