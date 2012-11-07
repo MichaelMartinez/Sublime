@@ -45,11 +45,11 @@
     "tag_scope"   : "entity.name.class",
 
     // Outline? (solid|outline|underline|none)
-    "quote_style" : "solid",
-    "curly_style" : "solid",
-    "round_style" : "solid",
-    "square_style": "solid",
-    "angle_style" : "solid",
+    "quote_style" : "underline",
+    "curly_style" : "underline",
+    "round_style" : "underline",
+    "square_style": "underline",
+    "angle_style" : "underline",
     "tag_style"   : "outline",
 
     // Path to gutter icons (relative to Packages)
