@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[ko.dependentObservable(function() \{
-	$0
-\}, ${1:this});]]></content>
-	<tabTrigger>ko.dep</tabTrigger>
-	<scope>source.js</scope>
-	<description>knockoutjs dependent observable</description>
-</snippet>

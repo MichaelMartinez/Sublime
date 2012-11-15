@@ -45,7 +45,7 @@
     "tag_scope"   : "entity.name.class",
 
     // Outline? (solid|outline|underline|none)
-    "quote_style" : "underline",
+    "quote_style" : "outline",
     "curly_style" : "underline",
     "round_style" : "underline",
     "square_style": "underline",

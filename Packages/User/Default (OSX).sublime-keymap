@@ -1,4 +1,11 @@
 [
 	{ "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser"} },
-	{ "keys": ["ctrl+shift+h"], "command": "goto_documentation" }
+	{ "keys": ["ctrl+shift+h"], "command": "goto_documentation" },
+    { "keys": ["j", "j"], "command": "exit_insert_mode",
+    "context":
+    [
+        { "key": "setting.command_mode", "operand": false },
+        { "key": "setting.is_widget", "operand": false }
+    ]
+}
 ]

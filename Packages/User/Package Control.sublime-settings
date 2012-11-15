@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1352256813,
+	"auto_upgrade_last_run": 1352918048,
 	"installed_packages":
 	[
 		"Abacus",
@@ -11,12 +11,14 @@
 		"jQuery",
 		"jQuery Snippets pack",
 		"JsFormat",
+		"KeymapManager",
 		"Markdown Preview",
 		"Nettuts+ Fetch",
 		"Package Control",
 		"Python Flake8 Lint",
 		"Python PEP8 Autoformat",
 		"SideBarEnhancements",
+		"snake_case",
 		"Theme - Soda"
 	]
 }

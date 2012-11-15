@@ -1,0 +1,15 @@
+[
+    {
+        "id": "edit",
+        "children":
+        [
+            {
+                "id": "convert_case",
+                "children":
+                [
+                     { "caption": "snake_case", "command": "snake_case" }
+                ]
+            }
+        ]
+    }
+]

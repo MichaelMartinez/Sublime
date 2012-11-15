@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[ko.observable($0);]]></content>
-	<tabTrigger>ko.o</tabTrigger>
-	<scope>source.js</scope>
-	<description>knockoutjs observable</description>
-</snippet>
